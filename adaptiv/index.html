@@ -5,32 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      .link1:link {
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      h1 {
+        text-align: center;
+        color: #333;
+      }
+
+      p {
+        max-width: 800px;
+        margin: 0 auto;
+        line-height: 1.5;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+        display: flex;
+        justify-content: space-around;
+        background-color: #f0f0f0;
+        border-radius: 8px;
+      }
+
+      li {
+        flex-grow: 1;
+        text-align: center;
+        padding: 10px;
+        box-sizing: border-box;
+      }
+
+      .link1:link, .link1:visited {
         color: lightblue;
       }
-      .link1:visited {
-        color: yellow;
-      }
 
-      .link2:link {
+      .link2:link, .link2:visited {
         color: red;
       }
-      .link2:visited {
-        color: green;
-      }
 
-      .link3:link {
+      .link3:link, .link3:visited {
         color: lightcoral;
       }
-      .link3:visited {
-        color: lightskyblue;
-      }
 
-      .link4:link {
+      .link4:link, .link4:visited {
         color: darkorchid;
-      }
-      .link4:visited {
-        color: darkturquoise;
       }
     </style>
   </head>
@@ -38,16 +61,17 @@
     <h1>Персональна сторінка Тороса Андрія Володимировича</h1>
 
     <p>
-     Тут коротко про мене: Народився 13.03.2006 в селі в.Туря, але коли мені було 3 роки ми переїхали в м.Долина де я ходив до школи і знаходив нові знайомства. 
-    Начання у мене йшло легко, і я не нарікав. В вільний час завжди гуляв містом зі своїми друзями.
-    Люблю катання на велосипеді. Це завжди приносить мені задоволення, особливо катання в горах.
-    Також я полюбляю автомобілі. Коли я знайду свою професію то планую купити авто марки BMW.
+      Тут коротко про мене: Народився 13.03.2006 в селі в.Туря, але коли мені було 3 роки ми переїхали в м.Долина де я ходив до школи і знаходив нові знайомства.
+      Навчання у мене йшло легко, і я не нарікав. В вільний час завжди гуляв містом зі своїми друзями.
+      Люблю катання на велосипеді. Це завжди приносить мені задоволення, особливо катання в горах.
+      Також я полюбляю автомобілі. Коли я знайду свою професію то планую купити авто марки BMW.
     </p>
-<ul>
-    <li><a class="link1" href="./biography.html">Автобіографія</a></li>
-    <li><a class="link2" href="./nowadays.html">Сьогодення</a></li>
-    <li><a class="link3" href="./friends.html">Друзі</a></li>
-    <li><a class="link4" href="./gallery.html">Галерея</a></li>
-</ul>
+
+    <ul>
+      <li><a class="link1" href="./biography.html">Автобіографія</a></li>
+      <li><a class="link2" href="./nowadays.html">Сьогодення</a></li>
+      <li><a class="link3" href="./friends.html">Друзі</a></li>
+      <li><a class="link4" href="./gallery.html">Галерея</a></li>
+    </ul>
   </body>
 </html>
