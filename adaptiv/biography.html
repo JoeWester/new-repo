@@ -6,78 +6,83 @@
     <style>
         body {
             font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
 
         h1 {
-            color: #333; /* чорний колір тексту */
+            color: #333;
         }
 
         h3 {
-            color: #000080; /* темно-синій колір */
+            color: #000080;
         }
 
         ul {
             list-style: none;
             padding: 0;
+            margin: 0;
+        }
+
+        li {
+            box-sizing: border-box;
         }
 
         li a {
-            display: inline-block;
+            display: block;
             padding: 10px;
             text-decoration: none;
-            color: #fff; /* білий колір тексту */
-            background-color: #000080; /* темно-синій колір фону */
-            border: 2px solid #000080; /* темно-синій колір межі */
-            width: 150px; /* фіксована ширина кнопки */
+            color: #fff;
+            background-color: #000080;
+            border: 2px solid #000080;
+            width: 100%;
             text-align: center;
+            margin-bottom: 10px;
         }
 
         li a:hover {
-            background-color: #ff00ff; /* мажента колір при наведенні */
-            color: #000080; /* темно-синій колір тексту при наведенні */
+            background-color: #ff00ff;
+            color: #000080;
         }
 
         li a:active {
-            background-color: #ffff00; /* жовтий колір при натисканні */
-            color: #000; /* чорний колір тексту при натисканні */
+            background-color: #ffff00;
+            color: #000;
+        }
+
+        article {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
         }
 
         #basic_info {
-            background-color: #e6f7ff; /* блакитний колір фону */
-            color: #000; /* чорний колір тексту */
-            padding: 10px;
+            background-color: #e6f7ff;
+            color: #000;
         }
 
         #childhood {
-            background-color: #ffe6e6; /* червоний колір фону */
-            color: #000; /* чорний колір тексту */
-            padding: 10px;
+            background-color: #ffe6e6;
+            color: #000;
         }
 
         #school_years {
-            background-color: #e6ffe6; /* зелений колір фону */
-            color: #000; /* чорний колір тексту */
-            padding: 10px;
+            background-color: #e6ffe6;
+            color: #000;
         }
 
         #extracurricular {
-            background-color: #ffffcc; /* жовтий колір фону */
-            color: #000; /* чорний колір тексту */
-            padding: 10px;
+            background-color: #ffffcc;
+            color: #000;
         }
 
         #university {
-            background-color: #f2f2f2; /* світло-сірий колір фону */
-            color: #000; /* чорний колір тексту */
-            padding: 10px;
+            background-color: #f2f2f2;
+            color: #000;
         }
     </style>
-</head>
-<body>
-<html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <title>Автобіографія Тороса Андрія Володимировича</title>
 </head>
 <body>
     <h1>Автобіографія Тороса Андрія Володимировича</h1>
@@ -109,6 +114,7 @@
         <ul>
             <li>Байойайо Микола Тарасович (12.01.2007)</li>
             <li>Маклабухін Дмитро Вікторович (18.03.2006)</li>
+            <p>В 6 років пішов в школу. Знайомився з теперішніми друзями:</p>
         </ul>
         <p><a href="#content">До змісту</a></p>
     </article>
