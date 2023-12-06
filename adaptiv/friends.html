@@ -1,3 +1,8 @@
+Щоб створити адаптивну версію сторінки, вам потрібно додати стилі для різних розмірів екрану. Використовуючи модель «12-column Grid Responsive Layout», ви можете використовувати CSS Flexbox для організації колонок на сторінці. Також, згідно з вказаними вами вимогами, змініть шрифти для різних розмірів екрану.
+
+Ось ваш відредагований HTML та CSS:
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,10 +16,15 @@
 
         h1 {
             color: #333;
+            font-size: 24px; /* Базовий розмір шрифту */
+            margin-bottom: 10px;
         }
 
         h2 {
             color: #555;
+            font-size: 18px; /* Базовий розмір шрифту */
+            margin-top: 10px;
+            margin-bottom: 10px;
         }
 
         table {
@@ -40,6 +50,29 @@
         a {
             color: #007bff;
             text-decoration: none;
+        }
+
+        /* Responsive styles */
+        @media only screen and (min-width: 768px) {
+            /* Tablet styles */
+            h1 {
+                font-size: 1.2em; /* Збільшити на 20% */
+            }
+
+            h2 {
+                font-size: 1.1em; /* Збільшити на 10% */
+            }
+        }
+
+        @media only screen and (min-width: 992px) {
+            /* Desktop styles */
+            h1 {
+                font-size: 1.5em; /* Збільшити на 30% */
+            }
+
+            h2 {
+                font-size: 1.2em; /* Збільшити на 20% */
+            }
         }
     </style>
 </head>
